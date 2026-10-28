@@ -15,7 +15,8 @@ El propósito de este laboratorio es comprobar y aplicar el funcionamiento de un
 
 ---
 ## Diagrama Lógico
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/030c8b94-60ea-4d14-b9dc-9061954a91a0" />
+<img width="1024" height="952" alt="image" src="https://github.com/user-attachments/assets/eafce6f3-b661-4e12-bceb-887076282693" />
+
 
 
 ---
@@ -29,8 +30,19 @@ El propósito de este laboratorio es comprobar y aplicar el funcionamiento de un
 
 ## Direccionamiento IP
 
-<img width="388" height="103" alt="image" src="https://github.com/user-attachments/assets/323c8797-a021-4115-b6ac-a2db65e4bc59" />
+---
+
+## Router y Switch como clientes Radius
+
+<img width="767" height="581" alt="image" src="https://github.com/user-attachments/assets/2337dd8e-3ea0-4ec5-bfaa-a62b1cbe59a6" />
+
+## Grupo 1, 2, y 3. Con sus respectivos niveles
+<img width="924" height="693" alt="image" src="https://github.com/user-attachments/assets/bb8754d0-326a-4a20-a0b8-df009fa5ae5d" />
+
+<img width="753" height="643" alt="image" src="https://github.com/user-attachments/assets/43580001-f8a9-4d42-92b7-0544c745bdfa" />
+
+<img width="744" height="661" alt="image" src="https://github.com/user-attachments/assets/2fc84a25-f0c5-4c63-bc56-2cca20b0d91f" />
 
 
-<img width="705" height="61" alt="image" src="https://github.com/user-attachments/assets/64cf4774-2f16-4565-a9f1-f30c39cca516" />
+
 
