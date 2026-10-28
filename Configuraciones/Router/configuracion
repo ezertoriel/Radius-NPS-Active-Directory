@@ -1,0 +1,68 @@
+enable
+configure terminal
+hostname R-Radius
+no ip domain-lookup
+enable secret jimenez
+username Ezequiel privilege 15 secret Cisco123
+banner motd #Advertencia, Solo Personal Autorizado#
+service password-encryption
+ip domain-name ezequiel0863.itla.edu.do
+ip ssh version 2
+crypto key generate rsa
+2048
+interface Gig0/0
+ip address 10.8.63.1 255.255.255.0
+description Conexion a LAN
+no shutdown
+duplex full
+exit
+
+
+aaa new-model
+radius server Ezequiel0863
+address ipv4 10.8.63.10 auth-port 1812 acct-port 1813
+key Jimenez23
+exit
+aaa group server radius NPS-G
+server name Ezequiel0863
+exit
+
+aaa authentication login consola-auth group NPS-G local
+aaa authentication login ssh-auth local
+aaa authorization exec consola-authz group NPS-G local
+aaa authorization exec ssh-authz local
+aaa accounting exec default start-stop group NPS-G
+aaa accounting system default start-stop group NPS-G
+
+privilege exec level 0 show ip interface brief
+privilege exec level 5 show vlan brief
+privilege exec level 10 show running-config
+privilege exec level 10 show ip route
+privilege exec level 10 ping
+
+
+login on-success log
+login on-failure log 
+logging buffered 64000 informational
+logging on 
+service timestamps log datetime msec
+
+line console 0
+login authentication consola-auth
+authorization exec consola-authz
+logging synchronous
+exit
+
+line aux 0
+login authentication consola-auth
+authorization exec consola-authz
+exit
+
+line vty 0 4
+transport input ssh
+login authentication ssh-auth
+authorization exe ssh-authz
+exit
+end
+copy running-config startup-config
+write
