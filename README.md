@@ -5,7 +5,9 @@
 ---
 
 ## Propósito del laboratorio 
+
 El propósito de este laboratorio es comprobar y aplicar el funcionamiento de un servidor NPS, incluir seguridad AAA en Switch y Router, y la realización de grupos que tendrán diferentes accesos. Todo para tener una red segura y confiable. 
+
 ---
 ## Topología 
 <img width="461" height="561" alt="image" src="https://github.com/user-attachments/assets/4d4606a3-a9c9-4497-b83f-331e90052841" />
