@@ -2,6 +2,8 @@
 
 ## Video Demostrativo
 
+https://youtu.be/S2_LdKDCHsg
+
 ---
 
 ## Propósito del laboratorio 
