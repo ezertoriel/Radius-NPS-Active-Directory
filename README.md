@@ -31,6 +31,11 @@ El propósito de este laboratorio es comprobar y aplicar el funcionamiento de un
 ---
 
 ## Direccionamiento IP
+| Red | Equipo/Puerto | IP |
+| :--- | :---: | ---: |
+| LAN | Router GIG0/0 | 10.8.63.1 |
+| LAN | Switch VLAN1 | 10.8.63.5 |
+| LAN | Server e0 | 10.8.63.10 |
 
 ---
 
@@ -49,13 +54,25 @@ El propósito de este laboratorio es comprobar y aplicar el funcionamiento de un
 
 <img width="649" height="436" alt="image" src="https://github.com/user-attachments/assets/34d4e6bc-2056-41d4-a18c-9b2cc5139404" />
 
-## Router con SSH
+## Conexion con SSH
 
 <img width="736" height="479" alt="image" src="https://github.com/user-attachments/assets/ac597e57-fd16-419c-a491-a767811c3335" />
 
+## Consolas de equipos con Autenticación y Autorizacion
+<img width="492" height="432" alt="image" src="https://github.com/user-attachments/assets/aaac4661-a109-4348-9850-d291be9d1b73" />
 
 
+## Usuario con privilegio correspondiente
+
+<img width="589" height="441" alt="image" src="https://github.com/user-attachments/assets/12b2b6f5-1295-4659-aeab-cf8c27a475c4" />
+
+<img width="610" height="343" alt="image" src="https://github.com/user-attachments/assets/fb3381e6-7009-4084-8a86-26b3e0879cd7" />
+Usuario sin privilegio
+<img width="605" height="440" alt="image" src="https://github.com/user-attachments/assets/c843442a-8419-4c6b-91ee-60eb70a55598" />
 
 
+## Usuarios Locales en cada equipo (Ezequiel y Jimenez)
+
+<img width="1328" height="395" alt="image" src="https://github.com/user-attachments/assets/38602f21-7577-499b-9844-148378e68097" />
 
 
