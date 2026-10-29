@@ -33,11 +33,12 @@ aaa authorization exec consola-authz group NPS-G local
 aaa authorization exec ssh-authz local
 aaa accounting exec default start-stop group NPS-G
 aaa accounting system default start-stop group NPS-G
+aaa authorization console 
 
-privilege exec level 0 show ip interface brief
-privilege exec level 5 show vlan brief
+privilege exec level 1 show
+privilege exec level 1 show ip
 privilege exec level 10 show running-config
-privilege exec level 10 show ip route
+privilege exec level 10 configure terminal
 privilege exec level 10 ping
 
 
