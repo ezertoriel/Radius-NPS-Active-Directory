@@ -43,6 +43,16 @@ El propósito de este laboratorio es comprobar y aplicar el funcionamiento de un
 
 <img width="744" height="661" alt="image" src="https://github.com/user-attachments/assets/2fc84a25-f0c5-4c63-bc56-2cca20b0d91f" />
 
+## Conexión entre el Router y el Servidor Radius
+
+<img width="649" height="436" alt="image" src="https://github.com/user-attachments/assets/34d4e6bc-2056-41d4-a18c-9b2cc5139404" />
+
+## Router con SSH
+
+<img width="871" height="147" alt="image" src="https://github.com/user-attachments/assets/319b96eb-435b-41ef-97ed-8d2c8f78222a" />
+
+
+
 
 
 
