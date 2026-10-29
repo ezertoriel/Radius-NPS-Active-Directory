@@ -49,7 +49,8 @@ El propósito de este laboratorio es comprobar y aplicar el funcionamiento de un
 
 ## Router con SSH
 
-<img width="871" height="147" alt="image" src="https://github.com/user-attachments/assets/319b96eb-435b-41ef-97ed-8d2c8f78222a" />
+<img width="736" height="479" alt="image" src="https://github.com/user-attachments/assets/ac597e57-fd16-419c-a491-a767811c3335" />
+
 
 
 
