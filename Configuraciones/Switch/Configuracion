@@ -9,8 +9,7 @@ banner motd #Advertencia, Solo Personal Autorizado#
 service password-encryption
 ip domain-name ezequiel0863.itla.edu.do
 ip ssh version 2
-crypto key generate rsa
-2048
+crypto key generate rsa modulus 2048
 
 interface vlan 1
 ip address 10.8.63.5 255.255.255.0
@@ -66,7 +65,15 @@ transport input ssh
 login authentication ssh-auth
 authorization exe ssh-authz
 exit
+
+line vty 0 15
+transport input ssh
+login authentication ssh-auth
+authorization exe ssh-authz
+exit
+
 end
 copy running-config startup-config
 write
+
 
